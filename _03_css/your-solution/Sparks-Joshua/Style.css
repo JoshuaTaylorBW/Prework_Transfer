@@ -1,0 +1,12 @@
+#First_Column{
+	position: absolute;
+	width: 50%;
+	float: left;
+}
+#Second_Column{
+
+	position: absolute;
+	width: 50%;
+	float: right;
+	left: 50%;
+}

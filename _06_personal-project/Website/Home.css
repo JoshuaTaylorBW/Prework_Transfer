@@ -1,0 +1,314 @@
+body{
+overflow-x:hidden; 
+}
+
+/*Fonts*/
+	@font-face{
+		font-family: pacificoFont;
+		src: url(pacifico.ttf);
+	}
+	@font-face{
+		font-family: NexaLightFont;
+		src: url(nexa_light.otf);
+	}
+/**/
+
+/*Banner*/
+	#Banner{
+		left: 0;
+		top: -.5%;
+		width: 100%;
+		height: 6.5%;
+		position: fixed;
+		border-style: solid;
+		border-width: 100%;
+		border-color: black;
+		border-bottom: 1px solid black;
+		z-index: 50;
+		background-color: black;
+	}
+	#BannerSections{
+		list-style-type: none;
+		color: white;
+	}
+	#BannerSections a{
+		text-decoration: none;
+		color: #C6C6C6;
+	}
+	#BannerSections a:visited{
+		text-decoration: none;
+		color: #C6C6C6;
+	}
+	#BannerSections a:hover{
+		text-decoration: none;
+		color: white;
+	}
+
+	/*company Name*/
+		#CompanyNameTopLeft a:visited{
+		text-decoration: none;
+			color: white;
+		}
+		#CompanyNameTopLeft{
+			position: fixed;
+			font-family: pacificoFont;
+			top: 0;
+			font-size: 160%;/*180 */
+			left: 1%;
+			width: 7.7%;
+			height: 6.5%;
+			border-right: solid 1px #555555;
+		}
+		#CompanyText{
+			position: fixed;
+			top: -.6%;
+			left: .3%; /*0*/
+		}
+		@media(min-width: 1024px){
+			#CompanyNameTopLeft{
+				font-size: 120%;
+			}
+			#CompanyText{
+				left: .3%;
+				top: .2%;
+			}
+			#CompanySlogan{
+				font-size: 200%;
+			}
+		}
+		@media(min-width: 1300px){
+			#CompanyNameTopLeft{
+				font-size: 160%;
+			}
+			#CompanyText{
+				left: .3%;
+				top: -1%;
+			}
+
+			#CompanySlogan{
+				font-size: 100%;
+			}
+		}
+		@media(min-width: 1600px){
+			#CompanyNameTopLeft{
+				font-size: 180%;
+			}
+			#CompanyText{
+				left: 0.5%;
+			}
+		}
+	/**/
+	#AboutLink{
+		position: fixed;
+		left: 8.7%;
+		width: 11.7%;
+		height: 6.5%;
+		top: -0%;
+		text-align: center;
+		vertical-align: middle;
+		font-family: NexaLightFont;
+		border-right: solid 1px #555555;
+	}
+	#AboutText{
+		position: fixed;
+		
+		top: 2.1%;
+		left: 8.7%;
+		width: 11.7%;
+		height: 6.5%;
+	}
+	#WhatWeDoLink{
+		position: fixed;
+		left: 20.4%;
+		width: 11.7%;
+		height: 6.5%;
+		top: -0%;
+		text-align: center;
+		vertical-align: middle;
+		font-family: NexaLightFont;
+		border-right: solid 1px #555555;
+	}
+	#WhatWeDoText{
+		position: fixed;
+		
+		top: 2.1%;
+		left: 20.4%;
+		width: 11.7%;
+		height: 6.5%;
+	}
+	#ServicesLink{
+		position: fixed;
+		left: 32.1%;
+		width: 11.7%;
+		height: 6.5%;
+		top: -0%;
+		text-align: center;
+		vertical-align: middle;
+		font-family: NexaLightFont;
+		border-right: solid 1px #555555;
+	}
+	#ServicesText{
+		position: fixed;
+		top: 2.1%;
+		left: 32.1%;
+		width: 11.7%;
+		height: 6.5%;
+	}
+	#CaseStudiesLink{
+		position: fixed;
+		left: 43.8%;
+		width: 11.7%;
+		height: 6.5%;
+		top: -0%;
+		text-align: center;
+		vertical-align: middle;
+		font-family: NexaLightFont;
+		border-right: solid 1px #555555;
+	}
+	#CaseStudiesText{
+		position: fixed;
+		top: 2.1%;
+		left: 43.8%;
+		width: 11.7%;
+		height: 6.5%;
+	}
+	#ContactUsLink{
+		position: fixed;
+		left: 55.5%;
+		width: 11.7%;
+		height: 6.5%;
+		top: -0%;
+		text-align: center;
+		vertical-align: middle;
+		font-family: NexaLightFont;
+		border-right: solid 1px #555555;
+	}
+	#ContactUsText{
+		position: fixed;
+		top: 2.1%;
+		left: 55.5%;
+		width: 11.7%;
+		height: 6.5%;
+	}
+/**/
+
+/*Background Image*/
+	#Bg{
+		position: fixed;
+		top: -50%;
+		left: -50%;
+		width: 0%;
+		height: 0%;
+		z-index: 0;
+	}
+	#Bg img{
+		position: fixed; 
+ 		top: -0%;
+		left: -0%;
+ 		right: 0; 
+ 		bottom: 0; 
+ 		margin: auto; 
+ 		min-width: 100%;
+ 		max-width: 100%;
+ 		min-height: 110%;
+ 		max-height: 100%;
+ 		z-index: 0;
+	}
+/**/
+
+/*Spacing*/
+	#BannerSpacer{
+
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 6%;
+		position: absolute;
+		border-style: solid;
+		border-width: 100%;
+		border-color: black;
+		border-bottom: 1px solid black;
+		z-index: 0;
+		background-color: black;
+	}
+/**/
+
+/*Black Box*/
+	#BlackBox{
+		position: fixed;
+		width: 50%;
+		height: 61.5%;
+		left: 25%;
+		top: 21%;
+		border: 2px solid #FFFFFF;
+		border-radius: 15px;
+		background-color:black;
+		filter: alpha(opacity=85); /* internet explorer */
+		-khtml-opacity: 0.85;      /* khtml, old safari */
+	    -moz-opacity: 0.85;      /* mozilla, netscape */
+	    opacity: 0.85;      /* fx, safari, opera */
+	    z-index: 51;
+	}
+	#BigCompanyName{
+		position: fixed;
+		display: inline-block;
+		top: 14%;
+		width: 100%;
+		z-index: 52;
+		color: #DDDDDD;
+	
+		font-size: 500%;
+		font-family: pacificoFont;
+	}
+	#CompanySlogan{
+		position: fixed;
+		display: inline-block;
+		color: white;
+		top: 15%;
+		width: 100%;
+	
+		z-index: 52;
+		font-family: NexaLightFont;
+		font-size: 300%;
+	}
+	#ShowMeMoreButton{
+		position: fixed;
+		width: 100%;
+		top: 72%;
+		display: inline-block;
+		text-decoration: none;
+		text-align: center;
+		font-family: NexaLightFont;
+		color: white;
+		font-size: 160%;
+		z-index: 52;
+	}
+	
+	#Butterfly{
+		position: fixed;
+		left: 48.5%;
+		top: 66%;
+		z-index: 52;
+	}
+			@media(min-width: 1024px){
+				#CompanySlogan{
+					font-size: 200%;
+					top: 35%;
+				}
+			}
+
+		@media(min-width: 1300px){
+			#CompanySlogan{
+				font-size: 200%;
+				top: 31%;
+			}
+		}
+
+		@media(min-width: 1600px){
+			#CompanySlogan{
+				font-size: 300%;
+				top: 25%;
+			}
+		}
+
+/**/
