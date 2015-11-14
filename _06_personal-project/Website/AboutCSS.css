@@ -58,8 +58,8 @@ body{
 			top: 0;
 			font-size: 160%;/*180 */
 			left: 1%;
-			width: 7.7%;
-			height: 6.5%;
+			width: 7.7vw;
+			height: 6.5vh;
 			border-right: solid 1px #555555;
 		}
 		#CompanyText{
@@ -67,45 +67,12 @@ body{
 			top: -.6%;
 			left: .3%; /*0*/
 		}
-		@media(min-width: 1024px){
-			#CompanyNameTopLeft{
-				font-size: 120%;
-			}
-			#CompanyText{
-				left: .3%;
-				top: .2%;
-			}
-			#CompanySlogan{
-				font-size: 200%;
-			}
-		}
-		@media(min-width: 1300px){
-			#CompanyNameTopLeft{
-				font-size: 160%;
-			}
-			#CompanyText{
-				left: .3%;
-				top: -1%;
-			}
-
-			#CompanySlogan{
-				font-size: 100%;
-			}
-		}
-		@media(min-width: 1600px){
-			#CompanyNameTopLeft{
-				font-size: 180%;
-			}
-			#CompanyText{
-				left: 0.5%;
-			}
-		}
 	/**/
 	#AboutLink{
 		position: fixed;
 		left: 8.7%;
-		width: 11.7%;
-		height: 6.5%;
+		width: 11.7vw;
+		height: 6.5vh;
 		top: -0%;
 		text-align: center;
 		vertical-align: middle;
@@ -114,86 +81,11 @@ body{
 	}
 	#AboutText{
 		position: fixed;
-		
 		top: 2.1%;
 		left: 8.7%;
-		width: 11.7%;
-		height: 6.5%;
+		width: 11.7vw;
+		height: 6.5vh;
 	}
-	#WhatWeDoLink{
-		position: fixed;
-		left: 20.4%;
-		width: 11.7%;
-		height: 6.5%;
-		top: -0%;
-		text-align: center;
-		vertical-align: middle;
-		font-family: NexaLightFont;
-		border-right: solid 1px #555555;
-	}
-	#WhatWeDoText{
-		position: fixed;
-		
-		top: 2.1%;
-		left: 20.4%;
-		width: 11.7%;
-		height: 6.5%;
-	}
-	#ServicesLink{
-		position: fixed;
-		left: 32.1%;
-		width: 11.7%;
-		height: 6.5%;
-		top: -0%;
-		text-align: center;
-		vertical-align: middle;
-		font-family: NexaLightFont;
-		border-right: solid 1px #555555;
-	}
-	#ServicesText{
-		position: fixed;
-		top: 2.1%;
-		left: 32.1%;
-		width: 11.7%;
-		height: 6.5%;
-	}
-	#CaseStudiesLink{
-		position: fixed;
-		left: 43.8%;
-		width: 11.7%;
-		height: 6.5%;
-		top: -0%;
-		text-align: center;
-		vertical-align: middle;
-		font-family: NexaLightFont;
-		border-right: solid 1px #555555;
-	}
-	#CaseStudiesText{
-		position: fixed;
-		top: 2.1%;
-		left: 43.8%;
-		width: 11.7%;
-		height: 6.5%;
-	}
-	#ContactUsLink{
-		position: fixed;
-		left: 55.5%;
-		width: 11.7%;
-		height: 6.5%;
-		top: -0%;
-		text-align: center;
-		vertical-align: middle;
-		font-family: NexaLightFont;
-		border-right: solid 1px #555555;
-	}
-	#ContactUsText{
-		position: fixed;
-		top: 2.1%;
-		left: 55.5%;
-		width: 11.7%;
-		height: 6.5%;
-	}
-/**/
 
 /*Background Image*/
 	#Bg{
@@ -205,12 +97,12 @@ body{
 		z-index: 0;
 	}
 	#Bg img{
-		position: fixed; 
+		position: fixed;
  		top: -0%;
 		left: -0%;
- 		right: 0; 
- 		bottom: 0; 
- 		margin: auto; 
+ 		right: 0;
+ 		bottom: 0;
+ 		margin: auto;
  		min-width: 100%;
  		max-width: 100%;
  		min-height: 110%;
@@ -224,7 +116,7 @@ body{
 		left: -5%;
 		top: 6.5%;
 		width: 110%;
-		height: 3.5%;
+		height: 3.5vh;
 		position: fixed;
 		border-style: solid;
 		border-width: 100%;
@@ -260,10 +152,10 @@ body{
 	}
 	#FirstText{
 		position: fixed;
-		top: 6.7%;
+		top: 7.2%;
 		left: 2.9%;
-		width: 11.7%;
-		height: 6.5%;
+		width: 11.7vw;
+		height: 6.5vh;
 	}
 	#Second{
 
@@ -277,28 +169,11 @@ body{
 	}
 	#SecondText{
 		position: fixed;
-		top: 6.7%;
+		top: 7.2%;
 		left: 14.5%;
 		width: 11.7%;
 		height: 6.5%;
 	}
-	#Third{
-		font-family: NexaLightFont;
-		position: fixed;
-		top: 6.7%;
-		left: 26.2%;
-		font-size: 150%;
-		text-align: center;
-		vertical-align: middle;
-	}
-	#ThirdText{
-		position: fixed;
-		top: 6.7%;
-		left: 26.2%;
-		width: 11.7%;
-		height: 6.5%;
-	}
-/**/
 
 /*Spacing*/
 	#BannerSpacer{
@@ -340,7 +215,7 @@ body{
 	#CreativusIs{
 		position: absolute;
 		display: inline-block;
-		width: 100%;
+		width: 100vw;
 		top: 14%;
 		z-index: 52;
 		color: white;
@@ -353,8 +228,8 @@ body{
 		display: inline-block;
 		color: black;
 		top: 32%;
-		width: 100%;
-	
+		width: 100vw;
+
 		z-index: 52;
 		font-family: NexaLightFont;
 		font-size: 200%;
@@ -365,13 +240,13 @@ body{
 		display: inline-block;
 		color: black;
 		top: 32%;
-		width: 100%;
-	
+		width: 100vw;
+
 		z-index: 52;
 		font-family: NexaLightFont;
 		font-size: 200%;
 	}
-	
+
 	#DownArrow1{
 		position: absolute;
 		left: 48%;
@@ -382,8 +257,8 @@ body{
 /*Blue Box*/
 	#BlueBox{
 		position: absolute;
-		width: 72%;
-		height: 78%;
+		width: 72vw;
+		height: 78vh;
 		left: 14%;
 		top: 100%;
 		background-color:#00FFFF;
@@ -409,7 +284,7 @@ body{
 		display: inline-block;
 		color: black;
 		top: 113%;
-		width: 100%;
+		width: 100vw;
 		z-index: 52;
 		font-family: NexaLightFont;
 		font-size: 200%;
@@ -421,7 +296,7 @@ body{
 		color: black;
 		top: 143%;
 		left: 40%;
-		width: 20%;
+		width: 20vw;
 		z-index: 52;
 		font-family: NexaLightFont;
 		font-size: 200%;
@@ -429,182 +304,8 @@ body{
 	#DownArrow2{
 		position: absolute;
 		display: inline-block;
-		top: 170.5%;
+		top: 173.5%;
 		left: 48%;
 		z-index: 52;
-	}
-/**/
-/*Green Box*/
-	#GreenBox{
-		position: absolute;
-		width: 72%;
-		height: 78%;
-		left: 14%;
-		top: 185%;
-		background-color:#7CE82F;
-		filter: alpha(opacity=65); /* internet explorer */
-		-khtml-opacity: 0.65;      /* khtml, old safari */
-	    -moz-opacity: 0.65;      /* mozilla, netscape */
-	    opacity: 0.65;      /* fx, safari, opera */
-	    z-index: 51;
-	}
-	#WhoWeDo{
-		position: absolute;
-		display: inline-block;
-		width: 100%;
-		top: 185%;
-		z-index: 52;
-		color: white;
-		font-size: 350%;
-		font-family: NexaBoldFont;
-		font-weight: bold;
-	}
-	#ParagraphOne3{
-		position: absolute;
-		display: inline-block;
-		color: black;
-		top: 198%;
-		width: 100%;
-		z-index: 52;
-		font-family: NexaLightFont;
-		font-size: 200%;
-	}
-	#ParagraphTwo3{
-
-		position: absolute;
-		display: inline-block;
-		color: black;
-		top: 226%;
-		width: 100%;
-		z-index: 52;
-		font-family: NexaLightFont;
-		font-size: 200%;
-	}
-	#UpArrow{
-		position: absolute;
-		display: inline-block;
-		top: 257.5%;
-		left: 48%;
-		z-index: 52;
-	}
-/**/
-/*Sizing MUST BE AT END*/
-	@media(min-width: 1024px){
-		/*Yellow*/
-			#CreativusIs{
-				font-size: 270%;
-				left: -.1;
-			}
-			#ParagraphOne{
-				font-size: 125%;
-				top: 26%;
-			}
-			#ParagraphTwo{
-				font-size: 125%;
-				top: 50%;
-			}
-		/**/
-		/*Blue*/
-			#WhatWeDo{
-				font-size: 270%;
-				top: 100%;
-			}
-			#ParagraphOne2{
-				font-size: 125%;
-				top: 112%;
-			}
-			#ParagraphTwo2{
-				font-size: 125%;
-				top: 136%;
-			}
-		/**/
-		/*Green*/
-			#WhoWeDo{
-				font-size: 270%;
-				top: 185%;
-			}
-			#ParagraphOne3{
-				font-size: 125%;
-				top: 197%;
-			}
-			#ParagraphTwo3{
-				font-size: 125%;
-				top: 221%;
-			}
-		/**/
-
-	}
-	@media(min-width: 1300px){
-		/*Yellow*/
-			#ParagraphOne{
-				font-size: 150%;
-				top: 28%;
-			}
-			#ParagraphTwo{
-				font-size: 150%;
-				top: 56%;
-			}
-			
-		/**/
-		/*Blue*/
-			#WhatWeDo{
-				font-size: 300%;
-				top: 99%;
-			}
-			#ParagraphOne2{
-				font-size: 150%;
-				top: 111%;
-			}
-			#ParagraphTwo2{
-				font-size: 150%;
-				top: 139%;
-			}
-		/**/
-		/*Green*/
-			#WhoWeDo{
-				font-size: 300%;
-				top: 184%;
-			}
-			#ParagraphOne3{
-				font-size: 150%;
-				top: 196%;
-			}
-			#ParagraphTwo3{
-				font-size: 150%;
-				top: 224%;
-			}
-		/**/
-	}
-	@media(min-width: 1600px){
-		/*Yellow*/
-			#ParagraphOne{
-				font-size: 200%;
-				top: 24%;
-			}
-			#ParagraphTwo{
-				font-size: 200%;
-				top: 54%;
-			}
-		/**/
-		/*Blue*/
-			#ParagraphOne2{
-				font-size: 200%;
-				top: 109%;
-			}
-			#ParagraphTwo2{
-				font-size: 200%;
-				top: 139%;
-			}
-		/**/
-		/*Green*/
-			#ParagraphOne3{
-				font-size: 200%;
-				top: 194%;
-			}
-			#ParagraphTwo3{
-				font-size: 200%;
-				top: 224%;
-			}
-		/**/
 	}
 /**/
